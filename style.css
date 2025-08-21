@@ -1,0 +1,62 @@
+
+
+@font-face {
+    font-family: ice;
+    src: url(../aula15/assets/style/fontes/Iceberg-Italic.ttf);
+}
+
+h1{
+    font-size: 50px;
+    height: 20vh;
+    border: solid 2px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(195, 238, 255);
+    color: white;
+    -webkit-text-stroke: black 0.5px;
+    font-family: ice;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#pai{
+    width: 100%;
+    height: 80vh;
+    border: solid 3px black;
+    display: flex;
+    /* organizar eixo horizontal */
+    justify-content: space-evenly;
+    /* organizar eixo vertical */
+    align-items: center;
+    background-color: rgb(195, 238, 255);
+}
+.filho{
+    border: solid 2px red;
+    width: 20%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* espaço entre itens */
+    gap: 5px;
+}
+.filho img{
+    width:80%;
+}
+.filho2{
+    border: solid 2px red;
+    width: 20%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* espaço entre itens */
+    gap: 5px;
+}
+.filho2 img{
+    width: 70%;
+    height: 80%;
+}
